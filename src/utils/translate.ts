@@ -3,6 +3,7 @@ import axios from 'axios';
 const CACHE_KEY = 'translation_cache';
 
 const countryToLanguage: Record<string, string> = {
+    HK: 'yue',
     JP: 'ja',
     AE: 'ar',
     AT: 'de',
@@ -42,6 +43,7 @@ const countryToLanguage: Record<string, string> = {
     TH: 'th',
     TR: 'tr',
     TW: 'zh',
+    CN: 'zh',
     US: 'en',
     VN: 'vi',
     JO: 'ar',
